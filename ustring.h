@@ -187,7 +187,7 @@ String str_join(StringList list, String glue);
  */
 String str_repeat(String string, unsigned int times);
 
-/** @brief Repeats a String a specified times.
+/** @brief Find position of a String inside another.
  *
  * @param haystack The String to be search in.
  * @param needle The String to be search for.
@@ -196,7 +196,7 @@ String str_repeat(String string, unsigned int times);
  */
 int str_pos(String haystack, String needle, int offset);
 
-/** @brief Repeats a String a specified times.
+/** @brief Replace a String with another.
  *
  * @param haystack The String for replacement to occur.
  * @param first The String to be replaced.
